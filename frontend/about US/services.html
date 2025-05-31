@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Bikes Services</title>
+  <link rel="stylesheet" href="services.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <!-- AOS (Optional) -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <!-- <header class="header">
+    <div class="logo"><img src="/assets/final logo.png" alt=""></div>
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <nav id="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header> -->
+
+  <!-- Hero Section -->
+  <section class="hero" data-aos="fade-up">
+    <h1>Explore Our Services</h1>
+    <p>Powering your ride with innovation, technology, and unmatched support.</p>
+  </section>
+
+<section class="services-section">
+  <h2>Our Services</h2>
+  <p class="services-intro">Experience cutting-edge solutions and premium services tailored for e-bike enthusiasts.</p>
+  
+  <div class="services-grid">
+    <div class="service-card">
+      <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg" alt="High-Performance E-Bikes">
+      <h3>High-Performance E-Bikes</h3>
+      <p>Explore a powerful lineup of electric bikes built for speed, comfort, and sustainability.</p>
+    </div>
+
+    <div class="service-card">
+      <img src="https://images.pexels.com/photos/4393665/pexels-photo-4393665.jpeg" alt="Fast & Safe Delivery">
+      <h3>Fast & Safe Delivery</h3>
+      <p>Your e-bike delivered securely to your doorstep, with real-time tracking and quick dispatch.</p>
+    </div>
+
+    <div class="service-card">
+      <img src="https://images.pexels.com/photos/3806754/pexels-photo-3806754.jpeg" alt="Expert Maintenance">
+      <h3>Expert Maintenance</h3>
+      <p>On-demand servicing, expert support, and genuine spare parts to keep your ride smooth.</p>
+    </div>
+
+    <div class="service-card">
+      <img src="https://images.pexels.com/photos/276517/pexels-photo-276517.jpeg" alt="Free Test Rides">
+      <h3>Free Test Rides</h3>
+      <p>Take a free test ride at our showroom and experience the thrill before making your decision.</p>
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Why Choose Us -->
+<section class="why-choose" data-aos="fade-up">
+  <h2>Why Choose Us?</h2>
+  <ul>
+    <li data-aos="fade-right" data-aos-delay="100">🚴‍♂️ Over 5 Years of Industry Experience</li>
+    <li data-aos="fade-left" data-aos-delay="200">🔧 Professional & Skilled Technicians</li>
+    <li data-aos="fade-right" data-aos-delay="300">⚡ Advanced Technology Integration</li>
+    <li data-aos="fade-left" data-aos-delay="400">🌱 Eco-Friendly Commitment</li>
+    <li data-aos="fade-up" data-aos-delay="500">🤝 Personalized Customer Service</li>
+  </ul>
+</section>
+
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <h2 data-aos="fade-up">Happy Customers</h2>
+    <div class="testimonial-cards">
+      <div class="testimonial" data-aos="fade-up">
+        <img src="../assets/customer1.jpg" alt="Customer 1">
+        <p>"Amazing experience! The bikes are powerful and easy to use. Loved the service!"</p>
+      </div>
+      <div class="testimonial" data-aos="fade-up" data-aos-delay="100">
+        <img src="../assets/customer-feedback.jpg" alt="Customer 2">
+        <p>"I got my e-bike customized and it's perfect. Great quality and excellent team."</p>
+      </div>
+      <div class="testimonial" data-aos="fade-up" data-aos-delay="200">
+        <img src="../assets/customer3.png" alt="Customer 3">
+        <p>"Fast delivery and excellent support. My battery was replaced the same day!"</p>
+      </div>
+    </div>
+  </section>
+<!-- Brochure Section -->
+<section class="brochures-section" data-aos="fade-up">
+  <h2>Download Our Brochure</h2>
+  <p class="brochures-intro">Explore our complete range of electric bikes with specifications, features, and pricing in one comprehensive brochure.</p>
+  <div class="brochure-download">
+    <a href="/frontend/assets/SINA_Brousher_Info.pdf" target="_blank" class="cta-button" download>
+      📄 View Full Brochure
+    </a>
+  </div>
+</section>
+
+
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2025 Sina E-Bikes. All rights reserved.</p>
+  </footer>
+
+  <!-- Scripts -->
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('nav-menu');
+      menu.classList.toggle('active');
+    }
+  </script>
+  <!-- AOS JS (Optional) -->
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 300,
+      once: false
+    });
+  </script>
+</body>
+</html>
