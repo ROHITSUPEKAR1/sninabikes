@@ -33,9 +33,10 @@ body {
   height: 70px;
   width: 100%;
   display: flex;
+  border-bottom: 1px solid gray;
   align-items: center;
   justify-content: space-between;
-  padding: 0 20px
+  padding: 0px 40px
 }
 
 .navigation-bar .logo {
@@ -59,7 +60,7 @@ body {
   position: relative;
   text-decoration: none;
   color: #fff;
-  font-size: 18px;
+  font-size: 15px;
   padding: 5px 0;
   transition: color 0.3s ease
 }
@@ -672,7 +673,7 @@ a{
   .contact-container {
     flex-direction: column;
     justify-content: flex-start;
-    align-items: flex-start;
+    align-items:center;
     padding-left: 0
   }
 

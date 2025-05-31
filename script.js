@@ -84,7 +84,7 @@ mediaQuery.addEventListener("change", (e) => {
 document.addEventListener("DOMContentLoaded", () => {
   const bikes = [
     {
-      image: "./frontend/assets/Sky Blue 1.png",
+      image: "./frontend/assets/bike2-blue.png",
       title: "Power Sport-SL",
       desc: "High-performance electric moped with smart tech.",
       range: "45 kms",
